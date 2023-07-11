@@ -1,23 +1,26 @@
-import './App.css'
-import Header from './components/Header'
-
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-  
-
   return (
     <div className="App">
-      <Header title="Meine Webseite" />
-      <Header title="Boo" color="blue" />
-      {/*
-        TS kann Tippfehler und Fehler bei den Prop-Namen erkennen!
-        <Header titel="Boo" colour="blue" />
-
-        TS erkennt fehlende Props
-        <Header color="#c0ff33" />
-      */}
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
