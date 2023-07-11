@@ -82,6 +82,10 @@ $ npm i typescript
 
 $ npm run init
 
+# in tsconfig.json ändern:
+#     "rootDir": "./src"
+#     ...
+#     "outDir": "./dist"
 
 $ mkdir src
 $ mkdir dist
@@ -247,11 +251,8 @@ function App() {
 }
 ```
 
-## Abschließende Anmerkungen
+## Wiederholung & Vertiefung mit diesen Tutorials
 
--   Über die globale Installation sprechen?
-
--   Wiederholung & Vertiefung mit diesem Selbstlern-Video
     -   https://www.youtube.com/watch?v=BCg4U1FzODs
     -   https://learn.microsoft.com/de-de/training/paths/build-javascript-applications-typescript/
     -   https://www.youtube.com/watch?v=d56mG7DezGs
