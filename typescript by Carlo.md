@@ -16,11 +16,11 @@
     -   Genau wie VSCode
 
 -   Die TS-Dateierweiterung ist `.ts` (oder bei React können wir .tsx verwenden)
--   TypeScript ist eine Obermenge von JavaScript
+-   TypeScript ist ein Superset von JavaScript
 
     -   TS fügt JavaScript zusätzliche Syntax hinzu
     -   TS = JavaScript + anderes Zeug (hauptsächlich Typen)
-    -   Das bedeutet, dass du normales JavaScript in einer `.ts`-Datei schreiben und es funktioniert
+    -   Das bedeutet, dass du normales JavaScript in einer `.ts`-Datei schreiben kannst und es funktioniert
     -   Dein bestehender funktionierender JavaScript-Code ist also auch TypeScript-Code!
     -   ABER ich empfehle, es mit einem neuen Projekt zu lernen, anstatt ein altes umzuwandeln
 
@@ -69,7 +69,9 @@ console.log(prettyPrint("3.14159"));
 ### BASIC DEMO
 
 ```sh
-$ mkdir typescript-test && code typescript-test
+$ mkdir typescript-test
+$ cd typescript-test
+$ npm init -y
 $ npm i typescript
 
 # SETUP:
@@ -79,7 +81,7 @@ $ npm i typescript
 # }
 
 $ npm run init
-# erkläre tsconfig.json, richte outdir "dist" und rootdir "src" ein
+
 
 $ mkdir src
 $ mkdir dist
